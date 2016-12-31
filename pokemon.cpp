@@ -141,7 +141,6 @@ void pokemon::refresh(uint8_t ornaments)
     refresh();
 }
 
-//Bulbasaur
 void pokemon::drawBulbasaur()
 {
     uint16_t lightBlue = matrix->Color(98, 213, 180),
