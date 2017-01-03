@@ -52,7 +52,7 @@ public:
 
 private:
     Adafruit_NeoMatrix *matrix;
-    uint8_t _ornaments;  // Individual set bits get specific ornaments drawn
+    uint8_t _ornaments;
     void drawBulbasaur();
     void drawIvysaur();
     void drawVenusaur();
